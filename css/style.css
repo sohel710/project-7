@@ -1,0 +1,788 @@
+*{
+	padding: 0px;
+	margin: 0px;
+} 
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*****************************
+   **All css code goes here**
+   ******************************/
+.heder{
+  width: 100%; 
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;  
+  background-size: cover;
+} 
+.menu{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+}
+.logo{
+  width: 20%;
+  line-height: 80px;
+  float: left;
+}
+.logo img{
+  padding-left: 70px; 
+}
+.right-menu{
+  width: 80%;
+  line-height: 100px;
+  float: right;
+}
+.right-menu ul{
+  text-align: center;
+
+}
+.right-menu ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px; 
+  padding-left: 10px;
+}
+.right-menu ul li a{
+  font-size: 20px; 
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+ 
+}
+.right-menu ul li a:hover{
+  color: #22c568;
+}
+
+.heder .box {
+  border: 6px solid #262631;
+  width: 23%;
+  height: 100%;
+  text-align: left;
+  margin-top: 50px;
+}
+.heder .inner-title h2{
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 283px;
+}
+.heder .inner-title p{
+  font-size: 23px;
+  line-height: 33px;
+  color: #fff;
+  font-weight: 300px;
+  margin-left: 10px;
+  margin-top: 28px;
+  margin-bottom: 35px;
+}
+.heder .inner-title .btn-secondary{
+  font-size: 21px;
+  color: #fff;
+  background: #22c568;
+  margin-left: 10px;
+  border: 1px solid #22c568;
+  border-radius: 2px;
+}
+.heder .inner-title .btn-secondary:hover{
+  color: #fff;
+  background: transparent;
+  border: 1px solid #22c568;
+}
+.heder .inner-title img{
+  color: #22c568;
+  width: 4%;
+  margin-left: 25px;
+}
+.heder .bottom{
+  width: 100%;
+  border: 3px solid #191a2a;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 305px;
+  background: #191a2a;
+  box-shadow: 0 0 10px #191a2a, 0 0 40px #191a2a, 0 0 80px #191a2a; 
+}
+.heder .bottom:hover{
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+  border: 3px solid #2196f3;
+}
+.heder .bottom img{
+  width: 18%;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.heder .bottom img:hover{
+  color: #fff;
+}
+.heder .bottom h4{
+ font-size: 15px;
+ font-weight: 500;
+ color: #fff;
+ text-align: center;
+}
+.heder .bottom p{
+  font-size: 10px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+.heder .img img {
+  width: 60%;
+  margin-top: 372px;
+  margin-left: 61px;
+}
+.heder .right h2{
+  margin-top: 370px;
+  font-size: 40px;
+  color: #fff;
+}
+.heder .right p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 15px;
+}
+.heder .right .btn-secondary{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 97px;
+  background: #22c568;
+}
+.heder .right .btn-secondary:hover{
+  background: transparent;
+  border: 1px solid #22c568;
+}
+.heder .bottom-so h2{
+  font-size: 35px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  margin-top: 114px;
+}
+.heder .bottom-so p{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+}
+.heder .imgs{
+  margin-top: 50px;
+  width: 60%;
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3; 
+  border: 3px solid #2196f3;
+}
+.heder .imgs img{
+  width: 20%;
+  margin-top: 87px;
+  margin-left: 20px;
+}
+.heder .imgs h4{
+  margin-left: 97px;
+  margin-top: -47px;
+  color: #fff;
+  font-size: 30px;
+}
+.heder .imgs .imgp p{
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.heder .imgps h2{
+  font-size: 58px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 83px;
+  margin-top: -175px;
+}
+.heder .form-group{
+  padding-bottom: 40px;
+}
+.heder .form-group h2{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 38px;
+  color: #fff;
+}
+.heder .form-group .form-control{
+  width: 37%;
+  color: #22c568;
+  border-radius: 23px;
+  margin-left: 225px;
+  outline: none;
+}
+.heder .form-group .btn-light{
+  border-radius: 20px;
+  width: 10%;
+  padding: 10px;
+  font-size: 10px;
+  color: #fff;
+  background: #22c568;
+  margin-left: 682px;
+  margin-top: -69px;
+}
+.heder .form-group .btn-light:hover{
+  color: #22c568;
+  background: transparent;
+}
+.footer{
+  width: 100%;
+  padding: 20px 0px;
+  background: #000;
+}
+.footer .footer-menu ul{
+  text-align: center;
+}
+.footer .footer-menu ul li{
+  display: inline-block;
+  list-style: none;
+   
+}
+.footer .footer-menu ul li a{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 50px;
+}
+.footer .footer-menu .socil-icon{
+  text-align: center;
+}
+.footer .footer-menu .socil-icon .fa-facebook{
+  font-size: 38px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.footer .footer-menu .socil-icon .fa-facebook:hover{
+  color: #fff;
+}
+.footer .footer-menu .socil-icon .fa-twitter{
+  font-size: 38px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.footer .footer-menu .socil-icon .fa-twitter:hover{
+  color: #fff;
+}
+.footer .footer-menu .socil-icon .fa-google-plus{
+  font-size: 38px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.footer .footer-menu .socil-icon .fa-google-plus:hover{
+  color: #fff;
+}
+/*********************************************
+             plugin cod start
+*********************************************/
+
+   .swiper-container {
+      width: 100%;
+      padding-top: 2px;
+      padding-bottom: 118px;
+    }
+    .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+
+    }
+    .isStuck{
+    left:0px;
+    width:100%;
+    background: #000;
+    }
+    .navbar-wrapper{
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+    padding: 1px 0px;
+    }
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .heder .logo img {
+    padding-left: 2px;
+    width: 123%;
+    }
+    .right-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 13px;
+    padding-left: 1px;
+    }
+    .right-menu ul li a {
+    font-size: 9px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: ;
+   }
+   .heder .inner-title h2 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 203px;
+    }
+    .heder .inner-title p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300px;
+    margin-left: 10px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    }
+    .heder .bottom {
+    width: 100%;
+    border: 3px solid #191a2a;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 100px;
+    background: #191a2a;
+    box-shadow: 0 0 10px #191a2a, 0 0 40px #191a2a, 0 0 80px #191a2a;
+    }
+    .heder .img img {
+    width: 60%;
+    margin-top: 184px;
+    margin-left: 61px;
+    }
+    .heder .right h2 {
+    margin-top: 71px;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    }
+    .heder .right p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 24px;
+    }
+    .heder .right .btn-secondary {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 13px;
+    background: #22c568;
+    }
+    .heder .bottom-so h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    }
+    .heder .bottom-so p {
+    font-size: 11px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+    }
+    .heder .imgs {
+    margin-top: 67px;
+    width: 60%;
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3;
+    border: 3px solid #2196f3;
+    }
+    .heder .imgs img {
+    width: 20%;
+    margin-top: 38px;
+    margin-left: 20px;
+    }
+    .heder .imgs h4 {
+    margin-left: 70px;
+    margin-top: -35px;
+    color: #fff;
+    font-size: 20px;
+    }
+    .heder .imgs .imgp p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    .heder .imgps h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    }
+    .heder .form-group h2 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 38px;
+    color: #fff;
+    }
+    .heder .form-group .form-control {
+    width: 47%;
+    color: #22c568;
+    border-radius: 23px;
+    margin-left: 18px;
+    outline: none;
+    }
+    .heder .form-group .btn-light {
+    border-radius: 20px;
+    width: 26%;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: #22c568;
+    margin-left: 204px;
+    margin-top: -69px;
+    }
+    .footer .footer-menu ul li a {
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+    }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+     .logo img {
+    padding-left: 2px;
+    width: 123%;
+    }
+    .right-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 13px;
+    padding-left: 1px;
+    }
+    .right-menu ul li a {
+    font-size: 9px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: ;
+   }
+   .heder .inner-title h2 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 203px;
+    }
+    .heder .inner-title p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300px;
+    margin-left: 10px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    }
+    .heder .bottom {
+    width: 100%;
+    border: 3px solid #191a2a;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 100px;
+    background: #191a2a;
+    box-shadow: 0 0 10px #191a2a, 0 0 40px #191a2a, 0 0 80px #191a2a;
+    }
+    .heder .img img {
+    width: 60%;
+    margin-top: 184px;
+    margin-left: 61px;
+    }
+    .heder .right h2 {
+    margin-top: 71px;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    }
+    .heder .right p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 24px;
+    }
+    .heder .right .btn-secondary {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 13px;
+    background: #22c568;
+    }
+    .heder .bottom-so h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    }
+    .heder .bottom-so p {
+    font-size: 11px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+    }
+    .heder .imgs {
+    margin-top: 67px;
+    width: 60%;
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3;
+    border: 3px solid #2196f3;
+    }
+    .heder .imgs img {
+    width: 20%;
+    margin-top: 38px;
+    margin-left: 20px;
+    }
+    .heder .imgs h4 {
+    margin-left: 70px;
+    margin-top: -35px;
+    color: #fff;
+    font-size: 20px;
+    }
+    .heder .imgs .imgp p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    .heder .imgps h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    }
+    .heder .form-group h2 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 38px;
+    color: #fff;
+    }
+    .heder .form-group .form-control {
+    width: 47%;
+    color: #22c568;
+    border-radius: 23px;
+    margin-left: 18px;
+    outline: none;
+    }
+    .heder .form-group .btn-light {
+    border-radius: 20px;
+    width: 26%;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: #22c568;
+    margin-left: 204px;
+    margin-top: -69px;
+    }
+    .footer .footer-menu ul li a {
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .heder .logo {
+    width: 20%;
+    line-height: 80px;
+    float: left;
+    padding-left: 0px;
+    }
+    .heder .logo img {
+    padding-left: 0px;
+    }
+    .logo img {
+    padding-left: 2px;
+    width: 123%;
+    }
+    .right-menu ul {
+    text-align: right;
+    }
+    .right-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 13px;
+    padding-left: 1px;
+    }
+    .right-menu ul li a {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    }
+   .heder .inner-title h2 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 203px;
+    }
+    .heder .inner-title p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300px;
+    margin-left: 10px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    }
+    .heder .bottom {
+    width: 100%;
+    border: 3px solid #191a2a;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 100px;
+    background: #191a2a;
+    box-shadow: 0 0 10px #191a2a, 0 0 40px #191a2a, 0 0 80px #191a2a;
+    }
+    .heder .img img {
+    width: 60%;
+    margin-top: 184px;
+    margin-left: 61px;
+    }
+    .heder .right h2 {
+    margin-top: 71px;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    }
+    .heder .right p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 24px;
+    }
+    .heder .right .btn-secondary {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 13px;
+    background: #22c568;
+    }
+    .heder .bottom-so h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    }
+    .heder .bottom-so p {
+    font-size: 11px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+    }
+    .heder .imgs {
+    margin-top: 67px;
+    width: 60%;
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3;
+    border: 3px solid #2196f3;
+    }
+    .heder .imgs img {
+    width: 20%;
+    margin-top: 38px;
+    margin-left: 20px;
+    }
+    .heder .imgs h4 {
+    margin-left: 70px;
+    margin-top: -35px;
+    color: #fff;
+    font-size: 20px;
+    }
+    .heder .imgs .imgp p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    .heder .imgps h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    }
+    .heder .form-group h2 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 38px;
+    color: #fff;
+    }
+    .heder .form-group .form-control {
+    width: 47%;
+    color: #22c568;
+    border-radius: 23px;
+    margin-left: 18px;
+    outline: none;
+    }
+    .heder .form-group .btn-light {
+    border-radius: 20px;
+    width: 26%;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: #22c568;
+    margin-left: 204px;
+    margin-top: -69px;
+    }
+    .footer .footer-menu ul li a {
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+    }
+  
+}
+
+
+
